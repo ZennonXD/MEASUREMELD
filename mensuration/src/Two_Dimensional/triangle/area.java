@@ -5,6 +5,7 @@ public class area
     // Area = (base * height)/2
     public double area_triangle(double height,double base)
     {
+
         return height*base/2;
     }
 
@@ -20,6 +21,7 @@ public class area
     // Area = a*b*sin(C)/2
     public double area_triangle(double a,double b,float C)
     {
+
         return (0.5*a*b*Math.sin(Math.toRadians(C)));
     }
 
